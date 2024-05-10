@@ -59,15 +59,15 @@
                             </a>
                             <h3>Sign Up</h3>
                         </div>
-                        <form class="pt-3" method="post" asp-action="Register">
-                            <div class="form-floating mb-3">
+                        <form class="pt-3" method="post" asp-action="Login">
+                            <div class="mb-3">
                                 <input asp-for="UserNameOrEmail" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="UserNameOrEmail">
                             </div>
-                            <div class="form-floating mb-3">
+                            <div class="mb-3">
                                 <input asp-for="Password" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Password">
                             </div>
-                            <div class="form-floating mb-3">
-                                <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">SIGN UP</button>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">SIGN IN</button>
                             </div><br />
                             <div class="text-center mt-4 font-weight-light">
                                 Already have an account? <a asp-action="Register" class="text-primary">Register</a>

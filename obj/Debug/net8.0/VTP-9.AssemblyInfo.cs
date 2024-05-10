@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VTP-9")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f1b183ed4787ead038499e3058c45e50402706a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VTP-9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VTP-9")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
