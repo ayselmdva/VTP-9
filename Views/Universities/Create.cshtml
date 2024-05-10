@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+@model Job
+
+<div class="col-12">
+    <div class="bg-light rounded h-100 p-4">
+        <h6 class="mb-4">Create University</h6>
+        <form class="forms-sample" asp-action="create" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" placeholder="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div><br />
+            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+            <button class="btn btn-light"><a asp-action="index">Cancel</a></button>
+        </form>
+
+    </div>
+</div>
